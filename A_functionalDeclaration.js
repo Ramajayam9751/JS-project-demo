@@ -1,5 +1,3 @@
-
-
 function Message(){
     return "welcome to credo system";
 }

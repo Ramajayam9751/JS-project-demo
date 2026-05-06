@@ -1,14 +1,16 @@
-const employee = {
-    empid : 121,
-    employee_firstName : "saravanan",
-    employee_lastName : "Durai",
+const productname = {
+    productid : 8428,
+    product_productname : "chikenmasala",
+    product_productbrand : "Aachi",
 
-    employee_fullname : function(){
-        return this.employee_firstName + " " + this.employee_lastName
-    }
+    product_fullname : function(){
+        return this. product_productname + "  " + this.product_productbrand
+
+
+}
 }
 
 
-console.log("emp ID ===>",employee.empid)
-console.log("emp name ===>",employee.employee_firstName)
-console.log("employee Full Name===>",employee.employee_fullname())
+console.log("productid===>",product.product_productid)
+console.log("product name===>",product.product_productname)
+console.log("product fullname===>",product.product_productfullname())
